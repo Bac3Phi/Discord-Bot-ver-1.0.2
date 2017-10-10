@@ -17,7 +17,7 @@ namespace myDiscordBot
         public async Task StartAsync()
         {
             _client = new DiscordSocketClient();
-            await _client.LoginAsync(TokenType.Bot, "MzY3MzM0MjU3OTkzMDU2MjU2.DL574Q.X8MyUIVogvbbWGjskU1V9xPXS6Y"); // Your Token here
+            await _client.LoginAsync(TokenType.Bot, ""); // Your Token here
             
             await _client.StartAsync();
 
